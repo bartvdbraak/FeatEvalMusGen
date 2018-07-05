@@ -5,7 +5,7 @@ Our custom scripts for Dataset Preprocessing, recursive Feature Extraction and D
 
 To preprocess your own dataset for [SampleRNN PyTorch](https://github.com/deepsound-project/samplernn-pytorch "Github Repository of SampleRNN PyTorch"), you can use our combine-and-split.sh bash script. Include this script in `samplern-pytorch/datasets`. Create a folder `preprocess` for your dataset folder(s). For the purposes of showing an example, we will be using a dataset called `piano` with three .WAV files to preprocess.
 
-![This is how the folder would look like after this step](folder-example-before.png?raw=true "This is how the folder would look like before executing.")
+![This is how the folder would look like after this step](../assets/folder-example-before.png?raw=true "This is how the folder would look like before executing.")
 
 Open up a terminal and navigate to the `datasets` folder, where our script now resides.
 ```
@@ -21,6 +21,6 @@ The script can have the following parameters: `./combine-split-audio.sh <chunk s
 $ ./combine-split-audio.sh 8 piano
 ```
 When this script has executed correctly, a folder will be created in the `datasets` folder, containing all audio chunks. In this case we used the default parameters (1 channel, 16k bitrate, 16k sampling rate).
-![This is how the folder would look like after this step](folder-example-after.png?raw=true "This is how the folder would look like after.")
+![This is how the folder would look like after this step](../assets/folder-example-after.png?raw=true "This is how the folder would look like after.")
 
 
