@@ -45,4 +45,5 @@ The script can have the following parameters: `./generatejson.sh <location strea
 $ ./generatejson.sh ~/Desktop/streaming_extractor_music ~/Desktop/samplernn-pytorch/datasets/preprocess/piano
 ```
 When this script has executed correctly, a folder will be created in folder we specified called `json`, containing all files in JSON-format with all the features, ordered by keys.
+![This is how the folder would look like after this step](../assets/folder-example-json.png?raw=true "This is how the folder would look like after.")
 
